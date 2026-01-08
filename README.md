@@ -1,12 +1,33 @@
-**How to install**
-Step 1: Install node.js, IMPORTANT, don't do this, overlay won't work... (https://nodejs.org/en/download)
-Step 2: Install fonts, ALSO IMPORTANT, open the folder font, double click all fonts and click the install button top left.
-Step 3: IF you don't have SOS Relay, then copy the SOS.dll from bakkes_sos_plugin and paste it in AppData\Roaming\bakkesmod\bakkesmod\plugins <- default path, if you've changed the install location, please put this in your bakkesmod plugins.
-Step 4: Open StreamLabs OBS or OBS, whatever you use to stream, make a browser source, make sure that you set it to 1920x1080.
-Step 5: Open Rocket League & Bakkesmod and then run start_overlay.bat by double clicking it.
+# QRLS Overlay
 
-Disclaimer: Do NOT touch any of the overlay files, if you touch it and break your stream, that's on you.
+## How to Install
 
-**Links**
-Control Panel (should open when you run the overlay): localhost:3000/controlpanel
-Overlay Screen (again should open when you run the overlay): localhost:3000
+1. **Install Node.js** – **IMPORTANT:** don’t skip this, the overlay won’t work without it.  
+   [Download Node.js](https://nodejs.org/en/download)
+
+2. **Install Fonts** – **ALSO IMPORTANT:** open the `font` folder, double-click all fonts, and click the **Install** button at the top left.
+
+3. **Install SOS Relay (if needed)** – If you don’t have SOS Relay, copy `SOS.dll` from `bakkes_sos_plugin` and paste it in:  
+> If you’ve changed the Bakkesmod install location, put it in your plugins folder there.
+
+4. **Open StreamLabs OBS or OBS** – Make a browser source, set it to **1920x1080** resolution.
+
+5. **Run the Overlay** – Open Rocket League & Bakkesmod, then run `start_overlay.bat` by double-clicking it.
+
+**Disclaimer:** Do **NOT** touch any overlay files. If you break your stream, that’s on you.
+
+---
+
+## Links
+
+- **Control Panel:** [http://localhost:3000/controlpanel](http://localhost:3000/controlpanel)  
+- **Overlay Screen:** [http://localhost:3000](http://localhost:3000)
+
+---
+
+## Notes
+
+- Make sure Node.js is installed **before** running the overlay.  
+- The browser source in OBS **must** be 1920x1080.  
+- All fonts from the `font` folder are required for proper display.  
+- The overlay communicates via WebSockets to the control panel, so both must be running.  
