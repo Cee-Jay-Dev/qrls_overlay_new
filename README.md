@@ -7,7 +7,7 @@
 
 2. **Install Fonts** – **ALSO IMPORTANT:** open the `font` folder, double-click all fonts, and click the **Install** button at the top left.
 
-3. **Install SOS Relay (if needed)** – If you don’t have SOS Relay, copy `SOS.dll` from `bakkes_sos_plugin` and paste it in:  
+3. **Install SOS Relay (if needed)** – If you don’t have SOS Relay, copy `SOS.dll` from `bakkes_sos_plugin` and paste it in: AppData\Roaming\bakkesmod\bakkesmod\plugins
 > If you’ve changed the Bakkesmod install location, put it in your plugins folder there.
 
 4. **Open StreamLabs OBS or OBS** – Make a browser source, set it to **1920x1080** resolution.
