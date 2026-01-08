@@ -11,6 +11,16 @@ REM -------------------------
 cd /d "%~dp0overlay"
 
 REM -------------------------
+REM Install dependencies (only if needed)
+REM -------------------------
+if not exist node_modules (
+    echo node_modules not found, installing dependencies...
+    npm install
+) else (
+    echo Dependencies already installed.
+)
+
+REM -------------------------
 REM Start the overlay
 REM -------------------------
 start "" cmd /k "npm start"
